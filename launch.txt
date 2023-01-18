@@ -1,0 +1,3 @@
+./pox.py openflow.of_01 --port=6653 log.level --DEBUG pox.forwarding.l2_learning pox.arp_final -to launch the controller
+
+sudo mn --custom sshmitm.py --topo attacktopo --controller=remote -to launch topology
